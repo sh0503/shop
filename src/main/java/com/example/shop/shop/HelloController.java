@@ -14,5 +14,8 @@ public class HelloController {
 	public String bye(){
 		return "bye";
 	}
-	
+	@GetMapping("nice")
+	public String nice(){
+		return "nice";
+	}
 }
