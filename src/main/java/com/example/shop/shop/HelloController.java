@@ -13,12 +13,17 @@ public class HelloController {
 		return "hello";
 	}
 
+<<<<<<< HEAD
 	@GetMapping("bye")
+=======
+	@GetMapping("SuHyeonbye2")
+
+>>>>>>> test
 	public String bye(){
 		return "bye";
 	}
 
-	@GetMapping("nice")
+	@GetMapping("nice2")
 	public String nice(){
 		return "nice";
 	}
