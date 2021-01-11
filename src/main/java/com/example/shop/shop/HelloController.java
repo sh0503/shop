@@ -7,7 +7,9 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
 
 
+
 	@GetMapping("YoonSuHyeon4")
+
 
 
 	public String hello() {
