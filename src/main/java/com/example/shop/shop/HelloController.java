@@ -11,12 +11,12 @@ public class HelloController {
 	public String hello(){
 		return "hello";
 	}
-	@GetMapping("bye")
+	@GetMapping("bye2")
 	public String bye(){
 		return "bye";
 	}
 
-	@GetMapping("nice")
+	@GetMapping("nice2")
 	public String nice(){
 		return "nice";
 	}
