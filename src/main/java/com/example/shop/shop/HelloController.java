@@ -20,6 +20,10 @@ public class HelloController {
 	public String nice(){
 		return "nice";
 	}
+	@GetMapping("see")
+	public String see(){
+		return "see";
+	}
 
 	
 
